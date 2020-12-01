@@ -22,8 +22,10 @@ class Chain {
     }
 
     display(){
-        var posA = this.chain.bodyA.position
-        var posB = this.pointB
-        line(posA.x, posA.y, posB.x, posB.y)
+        if (this.chain.bodyA){
+            var posA = this.chain.bodyA.position
+            var posB = this.pointB
+            line(posA.x, posA.y, posB.x, posB.y)
+        }
     }
 }

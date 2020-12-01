@@ -50,7 +50,7 @@ function draw() {
 
   ground.display();
 
-  //chain.display();
+  chain.display();
 
   detectcollision(rock, mango1)
   detectcollision(rock, mango2)
